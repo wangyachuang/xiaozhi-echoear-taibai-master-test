@@ -1,0 +1,14 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "magai-wifi",
+            "sdkconfig_append": [
+                "CONFIG_LV_FONT_MONTSERRAT_40=y",
+                "CONFIG_LV_USE_FS_POSIX=y",
+                "CONFIG_LV_USE_PNG=y",
+                "CONFIG_LV_USE_LODEPNG=y"
+            ]
+        }
+    ]
+}
